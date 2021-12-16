@@ -3,7 +3,7 @@ import random
 ##Gay: nerox
 print('| CC GENERATOR |')
 print('| BY SPIDERCKZ |')
-print('versão 1.0')
+print('vers茫o 1.0')
 print ('instagram: spidercks')
 print('--------------------------------------------------------')
 y = True
@@ -18,11 +18,11 @@ data2 = random.randrange(1, 12)
 data3 = random.choice(list)
 cpf = random.randrange(1, 99799989999)
 
-bi = str(input('Gerar várias ccs? y/n?: '))
+bi = str(input('Gerar v谩rias ccs? y/n?: '))
 
 if bi == 'y':
     nume2 = random.randrange(1, 9999999999)
-    bin = int(input('Bin de 6 numeros: '))
+    bin = int(input('Bin de 6 n煤meros: '))
     print('CC:', bin, nume2)
     print('Cvv:',cvv)
     print('Vencimento:', data1, data2, data3)
@@ -56,11 +56,11 @@ if bi == 'y':
     
 else:
     nume2 = random.randrange(1, 9999999999)
-    bin = int(input('Bin de 6 numeros: '))
-    print('CC:', bin, nume2)
-    print('Cvv:',cvv)
-    print('Vencimento:', data1, data2, data3)
-    print('CPF:', cpf)
+    bin = int(input('Bin de 6 n煤meros: '))
+    print('馃挸CC:', bin, nume2)
+    print('馃攼Cvv:',cvv)
+    print('馃搯Vencimento:', data1, data2, data3)
+    print('馃搩CPF:', cpf)
     print('--------------------------------------------------------')
     print('para usar o script novamente digite "python3 spider-gerador.py"')
     
