@@ -58,7 +58,7 @@ else:
     nume2 = random.randrange(1, 9999999999)
     bin = int(input('Bin de 6 n煤meros: '))
     print('馃挸CC:', bin, nume2)
-    print('馃攼Cvv:',cvv)
+    print('馃攼Cvv:', cvv)
     print('馃搯Vencimento:', data1, data2, data3)
     print('馃搩CPF:', cpf)
     print('--------------------------------------------------------')
